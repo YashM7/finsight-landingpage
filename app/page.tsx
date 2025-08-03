@@ -13,7 +13,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "TrackZen",
-  description: "This is Home for Startup Nextjs Template",
+  description: "Income and Expense Tracker for Freelancers",
   // other metadata
 };
 
