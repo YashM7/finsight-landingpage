@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TrackZen",
+  title: "FinSight",
   description: "Income and Expense Tracker for Freelancers",
   // other metadata
 };
