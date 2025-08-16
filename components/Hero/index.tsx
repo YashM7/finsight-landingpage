@@ -24,11 +24,19 @@ const Hero = () => {
                 </p>
                 
                 <Image
-                  src="/images/Dashboard.png"
-                  alt="hero"
+                  src="/images/Dashboard-light.png"
+                  alt="Dashboard"
                   width={0}
                   height={0}
-                  className="mx-auto mt-10 w-full max-w-[600px] sm:max-w-[800px] lg:max-w-[1000px]"
+                  className="block dark:hidden mx-auto mt-10 w-full max-w-[600px] sm:max-w-[800px] lg:max-w-[1000px] shadow-md"
+                />
+                
+                <Image
+                  src="/images/Dashboard-dark.png"
+                  alt="Dashboard"
+                  width={0}
+                  height={0}
+                  className="hidden dark:block mx-auto mt-10 w-full max-w-[600px] sm:max-w-[800px] lg:max-w-[1000px]"
                 />
 
               </div>
