@@ -1,7 +1,21 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
+import toast from "react-hot-toast";
 
 const Hero = () => {
+
+  useEffect(() => {
+    toast(
+      "👋 Welcome to FinSight, your smart financial dashboard. Feel free to explore the features, and view the live demo anytime by clicking Get Started and logging in with the demo credentials.",
+      {
+        duration: 10000,
+      }
+    );
+  }, []);
+
   return (
     <>
       <section
