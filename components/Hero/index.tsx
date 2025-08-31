@@ -8,9 +8,8 @@ import axios from "axios";
 
 const Hero = () => {
 
-  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_API_BASE_URL;
-
   useEffect(() => {
+    const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_API_BASE_URL;
     axios.get(`${BACKEND_URL}/user/ping`);
     
     toast(
