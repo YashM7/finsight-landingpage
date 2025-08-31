@@ -7,9 +7,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "FinSight",
   description: "Income and Expense Tracker for Freelancers",
-  icons: {
-    icon: "/favicon.ico"
-  }
   // other metadata
 };
 
