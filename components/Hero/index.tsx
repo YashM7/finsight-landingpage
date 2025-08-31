@@ -4,10 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 import toast from "react-hot-toast";
+import axios from "axios";
 
 const Hero = () => {
 
+  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_API_BASE_URL;
+
   useEffect(() => {
+    axios.get(`${BACKEND_URL}/user/ping`);
+    
     toast(
       "👋 Welcome to FinSight, your smart financial dashboard. Feel free to explore the features, and view the live demo anytime by clicking Get Started and logging in with the demo credentials.",
       {
